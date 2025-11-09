@@ -1,0 +1,9 @@
+/* style.css */
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 10px;
+}
