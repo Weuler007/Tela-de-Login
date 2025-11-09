@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <!-- Define a codificação de caracteres e a responsividade -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login</title>
+
+  <!-- Importa o CSS do Bootstrap via CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Importa o arquivo de estilos personalizados -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Container centralizado vertical e horizontalmente -->
   <div class="container d-flex justify-content-center align-items-center vh-100">
+    
+    <!-- Card com sombra e padding para o formulário -->
     <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
       <h2 class="text-center mb-4">Login</h2>
+
+      <!-- Formulário de login -->
       <form id="loginForm">
+        <!-- Campo de e-mail -->
         <div class="mb-3">
           <label for="email" class="form-label">E-mail</label>
           <input type="email" class="form-control" id="email" required />
         </div>
+
+        <!-- Campo de senha -->
         <div class="mb-3">
           <label for="password" class="form-label">Senha</label>
           <input type="password" class="form-control" id="password" required />
         </div>
+
+        <!-- Botão de envio -->
         <button type="submit" class="btn btn-primary w-100">Entrar</button>
       </form>
+
+      <!-- Área para exibir mensagens de erro ou sucesso -->
       <div id="message" class="mt-3 text-center text-danger"></div>
     </div>
   </div>
+
+  <!-- Importa o script JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>

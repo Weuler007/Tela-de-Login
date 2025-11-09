@@ -1,9 +1,12 @@
 /* style.css */
+
+/* Define o fundo com gradiente e fonte padrão */
 body {
   background: linear-gradient(to right, #6a11cb, #2575fc);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Arredonda os cantos do card */
 .card {
   border-radius: 10px;
 }
