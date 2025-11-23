@@ -2,7 +2,9 @@
 
 /* Define o fundo com gradiente e fonte padrão */
 body {
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  
+  background-color: #f0f8ff; /* azul claro */
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
